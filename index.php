@@ -79,7 +79,7 @@
         </div>
         <div>
             Il prezzo scontato è: 
-            <?php echo $avatar->price_discounted ?>
+            <?php echo $avatar->price_discounted . ' €'; ?>
         </div>
     </div>
 
@@ -100,7 +100,7 @@
         </div>
         <div>
             Il prezzo scontato è: 
-            <?php echo $ghostbusters->price_discounted ?>
+            <?php echo $ghostbusters->price_discounted . ' €'; ?>
         </div>
     </div>
 </body>
